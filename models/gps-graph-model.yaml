@@ -1,0 +1,32 @@
+graph:
+  name: GPS Institutional Knowledge Graph
+
+nodes:
+  - Institution
+  - Purpose
+  - Capability
+  - Actor
+  - Resource
+  - Decision
+  - Outcome
+  - Knowledge
+  - Evidence
+  - Pattern
+  - Learning
+
+edges:
+  - source: Purpose
+    relationship: requires
+    target: Capability
+  - source: Actor
+    relationship: makes
+    target: Decision
+  - source: Decision
+    relationship: creates
+    target: Outcome
+  - source: Outcome
+    relationship: produces
+    target: Learning
+  - source: Evidence
+    relationship: validates
+    target: Knowledge
