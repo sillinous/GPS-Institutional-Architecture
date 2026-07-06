@@ -1,0 +1,22 @@
+resources:
+
+  - id: enterprise-data
+    name: Enterprise Data Assets
+    type: Knowledge Resource
+    ownership: Enterprise
+    supports:
+      - decision-intelligence
+
+  - id: operational-platforms
+    name: Operational Platforms
+    type: Technology Resource
+    ownership: Operations
+    enables:
+      - operational-excellence
+
+  - id: human-expertise
+    name: Human Expertise
+    type: Capability Resource
+    ownership: Institutional
+    enables:
+      - customer-value
