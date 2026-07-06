@@ -1,0 +1,21 @@
+transformation:
+  id: example-enterprise-evolution
+  name: Institutional Evolution Roadmap
+
+  current_state:
+    - decision-intelligence maturity level 1
+    - limited evidence-driven decision support
+
+  initiatives:
+    - build knowledge-driven decision capability
+    - improve capability measurement
+    - connect outcomes to investments
+
+  future_state:
+    - improved decision intelligence
+    - adaptive institutional capabilities
+
+  measures:
+    - capability maturity improvement
+    - decision effectiveness
+    - outcome performance
