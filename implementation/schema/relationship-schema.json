@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GPS Relationship Contract",
+  "type": "object",
+  "properties": {
+    "source": {"type": "string"},
+    "relationship": {"type": "string"},
+    "target": {"type": "string"},
+    "evidence": {"type": "array"},
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "confidence": {"type": "string"},
+        "source": {"type": "string"}
+      }
+    }
+  },
+  "required": ["source", "relationship", "target"]
+}
