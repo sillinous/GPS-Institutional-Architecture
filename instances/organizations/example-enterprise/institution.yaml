@@ -1,0 +1,14 @@
+institution:
+  id: example-enterprise
+  name: Example Enterprise
+  mission: Deliver value through coordinated capabilities and decisions.
+
+  strategic_objectives:
+    - Improve operational effectiveness
+    - Increase decision intelligence
+    - Accelerate institutional evolution
+
+  capabilities:
+    - operational-excellence
+    - customer-value
+    - decision-intelligence
