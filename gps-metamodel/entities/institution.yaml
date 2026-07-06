@@ -1,0 +1,19 @@
+entity: Institution
+
+purpose: Define the organizational system being modeled.
+
+attributes:
+  - id
+  - name
+  - mission
+  - strategic_objectives
+  - capabilities
+  - outcomes
+
+relationships:
+  contains:
+    target: Capability
+  depends_on:
+    target: Resource
+  evolves_through:
+    target: Transformation
