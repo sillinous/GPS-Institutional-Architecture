@@ -1,0 +1,19 @@
+relationships:
+
+  enables:
+    description: One entity enables another entity to perform its function.
+
+  requires:
+    description: One entity depends on another entity.
+
+  produces:
+    description: One entity creates an outcome or result.
+
+  measures:
+    description: Evidence used to evaluate effectiveness.
+
+  evolves:
+    description: A transition from current state to future state.
+
+  informs:
+    description: Knowledge influences decisions.
