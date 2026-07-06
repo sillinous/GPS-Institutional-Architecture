@@ -1,0 +1,21 @@
+rules:
+
+  artifact_traceability:
+    description: Ensure GPS artifacts maintain relationships to source models.
+
+    conditions:
+      - artifact.has_source exists
+      - artifact.has_owner exists
+
+    action:
+      maintain_lineage: true
+
+  decision_traceability:
+    description: Ensure decisions can be connected to evidence and outcomes.
+
+    conditions:
+      - decision.informed_by exists
+      - decision.produces exists
+
+    action:
+      validate_connection: true
