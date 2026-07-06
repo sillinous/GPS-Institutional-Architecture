@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GPS Universal Entity Contract",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "type": {"type": "string"},
+    "owner": {"type": "string"},
+    "evidence": {"type": "array"},
+    "relationships": {"type": "array"},
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {"type": "string"},
+        "updated": {"type": "string"},
+        "source": {"type": "string"}
+      }
+    }
+  },
+  "required": ["id", "name", "type"]
+}
