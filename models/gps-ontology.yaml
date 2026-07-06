@@ -1,0 +1,25 @@
+ontology:
+  name: GPS Institutional Ontology
+  version: 0.1
+
+entities:
+  - Purpose
+  - Actor
+  - Capability
+  - Resource
+  - Decision
+  - Outcome
+  - Knowledge
+  - Learning
+  - Institution
+  - Pattern
+  - Evidence
+
+relationships:
+  - Purpose requires Capability
+  - Actor makes Decision
+  - Resource enables Capability
+  - Decision creates Outcome
+  - Outcome informs Learning
+  - Learning improves Capability
+  - Evidence validates Knowledge
