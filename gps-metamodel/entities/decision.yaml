@@ -1,0 +1,19 @@
+entity: Decision
+
+purpose: Define choices made by actors to produce outcomes.
+
+attributes:
+  - id
+  - name
+  - owner
+  - inputs
+  - evidence_required
+  - outcomes
+
+relationships:
+  informed_by:
+    target: Knowledge
+  produces:
+    target: Outcome
+  enabled_by:
+    target: Capability
