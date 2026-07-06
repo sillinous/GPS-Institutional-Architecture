@@ -1,0 +1,19 @@
+entity: Knowledge
+
+purpose: Define information and evidence used to understand situations and guide decisions.
+
+attributes:
+  - id
+  - name
+  - source
+  - confidence
+  - relevance
+  - evidence
+
+relationships:
+  informs:
+    target: Decision
+  validates:
+    target: Outcome
+  describes:
+    target: Capability
