@@ -1,0 +1,17 @@
+knowledge:
+
+  - id: capability-assessment-data
+    name: Capability Assessment Evidence
+    source: Institutional Assessment
+    confidence: High
+    relevance: Capability Maturity
+    informs:
+      - investment-prioritization
+
+  - id: performance-data
+    name: Operational Performance Evidence
+    source: Operational Systems
+    confidence: Medium
+    relevance: Operational Improvement
+    validates:
+      - improved-efficiency
