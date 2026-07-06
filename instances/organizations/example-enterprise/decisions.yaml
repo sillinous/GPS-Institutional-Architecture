@@ -1,0 +1,19 @@
+decisions:
+
+  - id: investment-prioritization
+    name: Investment Prioritization
+    owner: executive-leadership
+    evidence_required:
+      - capability-maturity
+      - outcome-impact
+    enabled_by:
+      - decision-intelligence
+
+  - id: operational-improvement
+    name: Operational Improvement Decisions
+    owner: operations-team
+    evidence_required:
+      - performance-measures
+      - process-data
+    enabled_by:
+      - operational-excellence
