@@ -1,0 +1,19 @@
+outcomes:
+
+  - id: improved-efficiency
+    name: Improved Operational Efficiency
+    measures:
+      - cycle-time
+      - cost-effectiveness
+
+  - id: improved-customer-experience
+    name: Improved Customer Experience
+    measures:
+      - satisfaction
+      - retention
+
+  - id: improved-decision-quality
+    name: Improved Decision Quality
+    measures:
+      - decision-confidence
+      - outcome-performance
