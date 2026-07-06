@@ -1,0 +1,20 @@
+entity: Capability
+
+purpose: Define an institutional ability that creates value.
+
+attributes:
+  - id
+  - name
+  - description
+  - owner
+  - maturity_level
+  - dependencies
+  - outcomes
+
+relationships:
+  enables:
+    target: Decision
+  depends_on:
+    target: Resource
+  evolves_into:
+    target: Capability
