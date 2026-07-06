@@ -1,0 +1,19 @@
+entity: Actor
+
+purpose: Define people, roles, organizations, or agents that participate in institutional activity.
+
+attributes:
+  - id
+  - name
+  - role
+  - responsibilities
+  - authority
+  - capabilities
+
+relationships:
+  performs:
+    target: Capability
+  owns:
+    target: Decision
+  influences:
+    target: Outcome
