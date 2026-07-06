@@ -1,0 +1,21 @@
+rules:
+
+  capability_maturity:
+    description: Evaluate capability maturity and identify improvement opportunities.
+
+    conditions:
+      - capability.maturity_level exists
+      - outcome.impact exists
+
+    action:
+      recommend_transformation: true
+
+  decision_maturity:
+    description: Evaluate decision effectiveness.
+
+    conditions:
+      - decision.evidence_required exists
+      - knowledge.available exists
+
+    action:
+      identify_knowledge_gaps: true
