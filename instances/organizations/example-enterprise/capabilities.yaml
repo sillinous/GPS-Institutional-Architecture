@@ -1,0 +1,19 @@
+capabilities:
+
+  - id: operational-excellence
+    name: Operational Excellence
+    maturity_level: 2
+    outcomes:
+      - improved-efficiency
+
+  - id: customer-value
+    name: Customer Value Management
+    maturity_level: 2
+    outcomes:
+      - improved-customer-experience
+
+  - id: decision-intelligence
+    name: Decision Intelligence
+    maturity_level: 1
+    outcomes:
+      - improved-decision-quality
