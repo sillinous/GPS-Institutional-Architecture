@@ -1,0 +1,20 @@
+entity: Pattern
+
+purpose: Define reusable institutional solutions, architectures, and transformation approaches.
+
+attributes:
+  - id
+  - name
+  - description
+  - context
+  - problem
+  - solution
+  - applicability
+
+relationships:
+  applies_to:
+    target: Capability
+  supports:
+    target: Transformation
+  derived_from:
+    target: Knowledge
