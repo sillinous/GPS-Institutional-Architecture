@@ -1,0 +1,19 @@
+actors:
+
+  - id: executive-leadership
+    name: Executive Leadership
+    role: Strategic decision authority
+    responsibilities:
+      - Set direction
+      - Prioritize investments
+    capabilities:
+      - decision-intelligence
+
+  - id: operations-team
+    name: Operations Team
+    role: Capability execution owner
+    responsibilities:
+      - Execute operational processes
+      - Improve performance
+    capabilities:
+      - operational-excellence
