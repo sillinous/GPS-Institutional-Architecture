@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GPS Institutional Architecture Model",
+  "type": "object",
+  "properties": {
+    "institution": {"$ref": "#/definitions/institution"},
+    "capabilities": {"type": "array"},
+    "actors": {"type": "array"},
+    "decisions": {"type": "array"},
+    "knowledge": {"type": "array"},
+    "resources": {"type": "array"},
+    "outcomes": {"type": "array"},
+    "transformations": {"type": "array"}
+  },
+  "definitions": {
+    "institution": {
+      "type": "object",
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "mission": {"type": "string"}
+      },
+      "required": ["id", "name"]
+    }
+  }
+}
