@@ -1,0 +1,24 @@
+rules:
+
+  institutional_assessment:
+    description: Evaluate institutional health using GPS relationships.
+
+    evaluate:
+      - capability_maturity
+      - decision_quality
+      - knowledge_coverage
+      - outcome_alignment
+
+    action:
+      generate_assessment: true
+      identify_priorities: true
+
+  transformation_priority:
+    description: Prioritize changes based on impact and gaps.
+
+    conditions:
+      - capability_gap exists
+      - outcome_value exists
+
+    action:
+      recommend_investment: true
