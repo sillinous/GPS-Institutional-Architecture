@@ -1,0 +1,18 @@
+entity: Outcome
+
+purpose: Define measurable results produced by institutional activity.
+
+attributes:
+  - id
+  - name
+  - description
+  - measures
+  - evidence
+
+relationships:
+  produced_by:
+    target: Decision
+  validated_by:
+    target: Knowledge
+  improves:
+    target: Capability
