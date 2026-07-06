@@ -1,0 +1,17 @@
+entity: Resource
+
+purpose: Define assets that enable institutional capabilities.
+
+attributes:
+  - id
+  - name
+  - type
+  - availability
+  - ownership
+  - dependencies
+
+relationships:
+  enables:
+    target: Capability
+  supports:
+    target: Decision
