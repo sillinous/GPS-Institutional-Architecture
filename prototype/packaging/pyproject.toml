@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gps-institutional-architecture"
+version = "0.1.0"
+description = "GPS institutional architecture prototype"
+dependencies = [
+  "PyYAML>=6.0",
+  "jsonschema>=4.0"
+]
