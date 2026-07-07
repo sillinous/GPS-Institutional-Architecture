@@ -1,0 +1,10 @@
+environment: development
+
+schema:
+  path: ../implementation/schema/gps-schema.json
+
+assessment:
+  minimum_maturity_threshold: 3
+
+reporting:
+  format: markdown
