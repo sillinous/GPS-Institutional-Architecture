@@ -10,6 +10,9 @@ class RuleEngine:
         for rule in self.rules:
             result = rule(model)
             if result:
-                findings.append(result)
+                if isinstance(result, list):
+                    findings.extend(result)
+                else:
+                    findings.append(result)
 
         return findings
