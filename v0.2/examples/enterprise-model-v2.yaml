@@ -1,0 +1,13 @@
+institution:
+  id: example-enterprise
+  name: Example Enterprise
+
+capabilities:
+  - id: decision-intelligence
+    name: Decision Intelligence
+    maturity: 2
+
+relationships:
+  - source: decision-intelligence
+    type: enables
+    target: improved-outcomes
